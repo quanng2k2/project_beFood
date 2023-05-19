@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Roboto_mono;
+    src: url(../src/app/publics/fonts/Roboto_Mono/static/RobotoMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto_bold;
+    src: url(../src/app/publics/fonts/Roboto_Mono/static/RobotoMono-Bold.ttf);
+}
+
+* {
+    padding: 0px 0;
+    margin: 0px;
+    font-family: 'Roboto_mono';
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: relative;
+    background-image: linear-gradient(to right bottom, #fff3e5, #ffece4, #ffe6e8, #fce2ef, #eee0f7, #eddff7, #ebdff7, #eadef7, #f8ddef, #ffdee6, #ffe1dd, #ffe6d8);
+    /* background-image: linear-gradient(to right bottom, #d5e0c0, #dfdcbc, #e8d8bb, #efd4bd, #f3d1c2, #f2d3c5, #f0d4c7, #efd6ca, #eadcce, #e6e1d5, #e4e5dd, #e6e8e5); */
+    background-repeat: no-repeat;
+}

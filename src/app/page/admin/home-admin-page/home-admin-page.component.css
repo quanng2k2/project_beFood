@@ -1,0 +1,17 @@
+.navbar {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.main {
+    padding: 0px 0px 0px 20px;
+    margin: 0;
+}
+
+.index_admin {
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
